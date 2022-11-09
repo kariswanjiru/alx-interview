@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def pascal_triangle(n):
     x = []
     if n<=0:
@@ -7,6 +9,3 @@ def pascal_triangle(n):
             x+= [1]
             for i in x:
                 x+=1
-    
-
-pascal_triangle(3)
