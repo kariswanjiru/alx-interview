@@ -5,7 +5,9 @@ def pascal_triangle(n):
     if n<=0:
         print(x)
     else:
-        for n in x:
-            x+= [1]
-            for i in x:
-                x+=1
+        for i in range(n-1,0,-1):
+            for j in range(i+1):
+                print('*',end='')
+        print()
+
+
