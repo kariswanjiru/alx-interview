@@ -2,6 +2,7 @@
 
 def pascal_triangle(n):
     x = []
+    # return an empty set for zero
     if n<=0:
         print(x)
     else:
@@ -9,5 +10,3 @@ def pascal_triangle(n):
             for j in range(i+1):
                 print('*',end='')
         print()
-
-
