@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
 def pascal_triangle(n):
+    '''
+    The function returns a pascal triangle.
+    '''
     x = []
     # return an empty set for zero
     if n<=0:
